@@ -5,6 +5,8 @@ import { NumeroAleatorio } from "./components/basicos/NumeroAleatorio";
 import {  Repeticao } from "./components/basicos/repeticao/Repeticao";
 import { Produtos } from "./components/basicos/repeticao/Produtos";
 import { ParImpar } from "./components/basicos/condicional/ParImpar";
+import { PaI } from "./components/basicos/comunicacao/Pai";
+import { Contador } from "./components/basicos/contador/Contador";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
       <Produtos/>
       <ParImpar num = {2} />
       <ParImpar num = {1} />
+      <PaI/>
+      <Contador numeroInicial = {20}/>
 
     </>
   );
